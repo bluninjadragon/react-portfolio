@@ -1,9 +1,11 @@
 import "./App.css";
-import MyNavbar from "./components/MyNavbar/MyNavbar.jsx";
+import IntroBanner from "./components/IntroBanner/IntroBanner";
+import MyNavbar from "./components/MyNavbar/MyNavbar";
 
 function App() {
   return <div className="App">
-    <MyNavbar />
+    <MyNavbar fixed="top" />
+    <IntroBanner />
   </div>;
 }
 
