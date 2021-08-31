@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-function MyNavbar() {
+function About() {
   return (
     <div>
         <h1>About Me</h1>
@@ -27,4 +27,4 @@ function MyNavbar() {
   );
 }
 
-export default MyNavbar;
+export default About;
