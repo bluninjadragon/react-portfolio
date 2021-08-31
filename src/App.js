@@ -10,8 +10,10 @@ import MyNavbar from "./components/MyNavbar/MyNavbar";
 function App() {
   return (
   <div className="App">
-    <MyNavbar fixed="top" />
-
+    <MyNavbar />
+    <div>
+      
+    </div>
   </div>);
 };
 
