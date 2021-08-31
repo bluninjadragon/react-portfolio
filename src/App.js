@@ -6,6 +6,8 @@ import "./App.css";
 // import IntroBanner from "./components/IntroBanner/IntroBanner";
 import MyNavbar from "./components/MyNavbar/MyNavbar";
 import About from "./pages/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +15,12 @@ function App() {
     <MyNavbar />
     <div>
       <About />
+    </div>
+    <div>
+      <Portfolio />
+    </div>
+    <div>
+      <Footer />
     </div>
   </div>);
 };

@@ -7,23 +7,23 @@ import Col from "react-bootstrap/Col";
 
 function About() {
   return (
-    <div>
-        <h1>About Me</h1>
-      <Container>
-  <Row>
-    <Col>
-    Hello!
-    <br /> <br />
-    Summary of current and past exp
-    <br /> <br />
-    Bootcamp experience
-    <br /> <br />
-    Passions
-    <br /> <br />
-    </Col>
-  </Row>
-</Container>
-    </div>
+      <div>
+        <Container>
+    <Row>
+      <Col>
+      <h1>About Me</h1>
+      Hello!
+      <br /> <br />
+      Summary of current and past exp
+      <br /> <br />
+      Bootcamp experience
+      <br /> <br />
+      Passions
+      <br /> <br />
+      </Col>
+    </Row>
+  </Container>
+      </div>
   );
 }
 
