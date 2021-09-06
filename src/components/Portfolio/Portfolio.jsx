@@ -17,7 +17,7 @@ function Portfolio() {
   return (
 
     
-    <div>
+    <div id="portfolio">
         <h1>Portolio</h1>
         Below are a few highlights of finished projects and assignments. Click the image for the deployed application, and the text for the GitHub link.
       <Container>

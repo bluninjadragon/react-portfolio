@@ -9,7 +9,7 @@ import Profile from "../../assets/images/profile pic.jpg";
 
 function About() {
   return (
-      <div>
+      <div id="home">
         <Container>
         <Row>
       <Col>
@@ -23,9 +23,9 @@ function About() {
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col id="about">
       <br /> <br />
-      <h1>About Me</h1>
+      <h1 >About Me</h1>
       Hello!
       <br /> <br />
       I'm Jason Hsieh, and currently I am an aspiring Full Stack Developer while working full time at Northwestern Medicine under the Informatics Systems department and I help manage the electronic medical records system called Epic.
