@@ -11,6 +11,7 @@ function About() {
         <Container>
     <Row>
       <Col>
+      <br /> <br />
       <h1>About Me</h1>
       Hello!
       <br /> <br />
