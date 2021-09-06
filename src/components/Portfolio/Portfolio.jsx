@@ -31,6 +31,132 @@ function Portfolio() {
   </Row>
   </a>
 </Container>
+
+<Container>
+        <a href="https://github.com/bluninjadragon/Employee-Tracker-12">
+      <Row>
+        <Col>
+          <Image
+                  className="profile justify-content-end"
+                  alt="employee tracker"
+                  src="../../assets/images/profile pic.jpg"
+                  rounded
+                  fluid
+                />
+      </Col>
+    </Row>
+  <Row>
+    <Col>
+    Employee Tracker
+    </Col>
+  </Row>
+  </a>
+</Container>
+
+<Container>
+        <a href="https://github.com/bluninjadragon/HW-13-ORM-E-Commerce-Back-End">
+      <Row>
+        <Col>
+          <Image
+                  className="profile justify-content-end"
+                  alt="weather api"
+                  src="../../assets/images/"
+                  rounded
+                  fluid
+                />
+      </Col>
+    </Row>
+  <Row>
+    <Col>
+    E-Commerce Backend
+    </Col>
+  </Row>
+  </a>
+</Container>
+
+<Container>
+        <a href="https://github.com/bluninjadragon/Weather-Dashboard-6">
+      <Row>
+        <Col>
+          <Image
+                  className="https://github.com/bluninjadragon/Professional-README-Generator"
+                  alt="weather api"
+                  src="../../assets/images/"
+                  rounded
+                  fluid
+                />
+      </Col>
+    </Row>
+  <Row>
+    <Col>
+    Professional Read Me Generator
+    </Col>
+  </Row>
+  </a>
+</Container>
+
+<Container>
+        <a href="https://github.com/bluninjadragon/HW-22-Redux-Store">
+      <Row>
+        <Col>
+          <Image
+                  className="profile justify-content-end"
+                  alt="weather api"
+                  src="../../assets/images/"
+                  rounded
+                  fluid
+                />
+      </Col>
+    </Row>
+  <Row>
+    <Col>
+    Redux Store - Refactoring from Context to Redux
+    </Col>
+  </Row>
+  </a>
+</Container>
+
+<Container>
+        <a href="https://thyme-is-money.herokuapp.com/">
+      <Row>
+        <Col>
+          <Image
+                  className="profile justify-content-end"
+                  alt="weather api"
+                  src="../../assets/images/"
+                  rounded
+                  fluid
+                />
+      </Col>
+    </Row>
+  <Row>
+    <Col>
+    Thyme is Money
+    </Col>
+  </Row>
+  </a>
+</Container>
+
+<Container>
+        <a href="https://github.com/team-one-to-rule-them-all">
+      <Row>
+        <Col>
+          <Image
+                  className="profile justify-content-end"
+                  alt="weather api"
+                  src="../../assets/images/"
+                  rounded
+                  fluid
+                />
+      </Col>
+    </Row>
+  <Row>
+    <Col>
+    Team One To Rule Them All
+    </Col>
+  </Row>
+  </a>
+</Container>
     </div>
   );
 }
