@@ -16,7 +16,7 @@ function Contact() {
       <br /> <br />
       Email: jwhsieh91@gmail.com
       <br /> <br />
-      <a href="https://www.linkedin.com/in/jason-hsieh-86023b27/">LinkedIn
+      <a href="https://www.linkedin.com/in/jason-hsieh-86023b27/">LinkedIn</a>
       <br /> <br />
       Passions
       <br /> <br />
