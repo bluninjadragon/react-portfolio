@@ -5,9 +5,18 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import Weather from "../../assets/images/Version 1.0 Weather App.png";
+import Employee from "../../assets/images/employee.jpg";
+import Ecommerce from "../../assets/images/ecommerce.jpg";
+import ReadMe from "../../assets/images/readme.png";
+import Redux from "../../assets/images/redux.png";
+import Thyme from "../../assets/images/thyme.jpg";
+import LOTR from "../../assets/images/ring.jpg";
 
 function Portfolio() {
   return (
+
+    
     <div>
         <h1>Portolio</h1>
         Below are a few highlights of finished projects and assignments
@@ -18,7 +27,7 @@ function Portfolio() {
           <Image
                   className="profile justify-content-end"
                   alt="weather api"
-                  src="../../assets/images/Version 1.0 Weather App.png"
+                  src={Weather}
                   rounded
                   fluid
                 />
@@ -39,7 +48,7 @@ function Portfolio() {
           <Image
                   className="profile justify-content-end"
                   alt="employee tracker"
-                  src="../../assets/images/profile pic.jpg"
+                  src={Employee}
                   rounded
                   fluid
                 />
@@ -59,8 +68,8 @@ function Portfolio() {
         <Col>
           <Image
                   className="profile justify-content-end"
-                  alt="weather api"
-                  src="../../assets/images/"
+                  alt="ecommerce"
+                  src={Ecommerce}
                   rounded
                   fluid
                 />
@@ -75,13 +84,13 @@ function Portfolio() {
 </Container>
 
 <Container>
-        <a href="https://github.com/bluninjadragon/Weather-Dashboard-6">
+        <a href="https://github.com/bluninjadragon/Professional-README-Generator">
       <Row>
         <Col>
           <Image
-                  className="https://github.com/bluninjadragon/Professional-README-Generator"
-                  alt="weather api"
-                  src="../../assets/images/"
+                  className="profile justify-content-end"
+                  alt="readme"
+                  src={ReadMe}
                   rounded
                   fluid
                 />
@@ -101,8 +110,8 @@ function Portfolio() {
         <Col>
           <Image
                   className="profile justify-content-end"
-                  alt="weather api"
-                  src="../../assets/images/"
+                  alt="redux"
+                  src={Redux}
                   rounded
                   fluid
                 />
@@ -122,8 +131,8 @@ function Portfolio() {
         <Col>
           <Image
                   className="profile justify-content-end"
-                  alt="weather api"
-                  src="../../assets/images/"
+                  alt="thyme"
+                  src={Thyme}
                   rounded
                   fluid
                 />
@@ -143,8 +152,8 @@ function Portfolio() {
         <Col>
           <Image
                   className="profile justify-content-end"
-                  alt="weather api"
-                  src="../../assets/images/"
+                  alt="LOTR"
+                  src={LOTR}
                   rounded
                   fluid
                 />
