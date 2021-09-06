@@ -6,10 +6,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Weather from "../../assets/images/Version 1.0 Weather App.png";
-import Employee from "../../assets/images/employee.jpg";
+import Workout from "../../assets/images/workout.png";
 import Ecommerce from "../../assets/images/ecommerce.jpg";
 import ReadMe from "../../assets/images/readme.png";
-import Redux from "../../assets/images/redux.png";
+import Notes from "../../assets/images/notes.jpg";
 import Thyme from "../../assets/images/thyme.jpg";
 import LOTR from "../../assets/images/ring.jpg";
 
@@ -19,9 +19,9 @@ function Portfolio() {
     
     <div>
         <h1>Portolio</h1>
-        Below are a few highlights of finished projects and assignments
+        Below are a few highlights of finished projects and assignments. Click the image for the deployed application, and the text for the GitHub link.
       <Container>
-        <a href="https://github.com/bluninjadragon/Weather-Dashboard-6">
+        <a href="https://bluninjadragon.github.io/Weather-Dashboard-6/">
       <Row>
         <Col>
           <Image
@@ -33,53 +33,58 @@ function Portfolio() {
                 />
       </Col>
     </Row>
-  <Row>
+  <a href="https://github.com/bluninjadragon/Weather-Dashboard-6"><Row>
     <Col>
-    Weather API
+    Weather API Git Hub
     </Col>
   </Row>
+  </a>
   </a>
 </Container>
 
 <Container>
-        <a href="https://github.com/bluninjadragon/Employee-Tracker-12">
+        <a href="https://workout-tracker-jwh.herokuapp.com/?id=6130f8914398940016c866aa">
       <Row>
         <Col>
           <Image
                   className="profile justify-content-end"
                   alt="employee tracker"
-                  src={Employee}
+                  src={Workout}
                   rounded
                   fluid
                 />
       </Col>
     </Row>
+    <a href="https://github.com/bluninjadragon/HW-18-Workout-Tracker">
   <Row>
     <Col>
-    Employee Tracker
+    Workout Tracker GitHub
     </Col>
   </Row>
+  </a>
   </a>
 </Container>
 
 <Container>
-        <a href="https://github.com/bluninjadragon/HW-13-ORM-E-Commerce-Back-End">
+        <a href="https://note-tracker-plus.herokuapp.com/">
       <Row>
         <Col>
           <Image
                   className="profile justify-content-end"
                   alt="ecommerce"
-                  src={Ecommerce}
+                  src={Notes}
                   rounded
                   fluid
                 />
       </Col>
     </Row>
+    <a href="https://github.com/bluninjadragon/HW-11---Express">
   <Row>
     <Col>
-    E-Commerce Backend
+    Note Taker GitHub
     </Col>
   </Row>
+  </a>
   </a>
 </Container>
 
@@ -98,30 +103,32 @@ function Portfolio() {
     </Row>
   <Row>
     <Col>
-    Professional Read Me Generator
+    Professional Read Me Generator GitHub
     </Col>
   </Row>
   </a>
 </Container>
 
 <Container>
-        <a href="https://github.com/bluninjadragon/HW-22-Redux-Store">
+        <a href="https://redux-store-jwh.herokuapp.com/">
       <Row>
         <Col>
           <Image
                   className="profile justify-content-end"
                   alt="redux"
-                  src={Redux}
+                  src={Ecommerce}
                   rounded
                   fluid
                 />
       </Col>
     </Row>
+    <a href="https://github.com/bluninjadragon/HW-22-Redux-Store">
   <Row>
     <Col>
     Redux Store - Refactoring from Context to Redux
     </Col>
   </Row>
+  </a>
   </a>
 </Container>
 
@@ -138,16 +145,18 @@ function Portfolio() {
                 />
       </Col>
     </Row>
+    <a href="https://github.com/Project-2-Full-Stack">
   <Row>
     <Col>
-    Thyme is Money
+    Thyme is Money GitHub
     </Col>
   </Row>
+  </a>
   </a>
 </Container>
 
 <Container>
-        <a href="https://github.com/team-one-to-rule-them-all">
+        <a href="https://team-one-to-rule-them-all.github.io/projectone/">
       <Row>
         <Col>
           <Image
@@ -159,11 +168,13 @@ function Portfolio() {
                 />
       </Col>
     </Row>
+    <a href="https://github.com/team-one-to-rule-them-all">
   <Row>
     <Col>
-    Team One To Rule Them All
+    Top Shelf GitHub
     </Col>
   </Row>
+  </a>
   </a>
 </Container>
     </div>
