@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 // import Container from "react-bootstrap/Container";
 // import Slide from "react-reveal/Slide";
@@ -19,7 +21,9 @@ function App() {
       <About />
     </div>
     <div>
+      <Fade duration = {500}>
       <Portfolio />
+      </Fade>
     </div>
     <div>
        <Contact />
