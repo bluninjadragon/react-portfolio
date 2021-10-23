@@ -1,4 +1,6 @@
+import React from "react";
 import "./App.css";
+
 // import Container from "react-bootstrap/Container";
 // import Slide from "react-reveal/Slide";
 // import Fade from "react-reveal/Fade";
